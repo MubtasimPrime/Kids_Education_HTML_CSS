@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kids Education</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
@@ -11,7 +15,7 @@
       <nav class="navbar flex">
         <div class="nav-logo flex">
           <img src="assets/logo.png" alt="" />
-          <h2>SCHOOL</h2>
+          <h2 class="nav-h2">SCHOOL</h2>
         </div>
 
         <ul class="ul-items flex">
@@ -25,8 +29,11 @@
           </li>
         </ul>
 
-        <div>
+        <div class="nav-button">
           <button class="btn nav-btn">Contact</button>
+        </div>
+        <div class="hamburger">
+          <i class="fa-solid fa-bars"></i>
         </div>
       </nav>
 
@@ -48,7 +55,52 @@
         </div>
       </section>
     </header>
-    <main></main>
+    <main>
+      <!-- <marquee width="100%" direction="left" height="50px">
+        Education is the foundation of a child’s future, shaping their skills,
+        values, and perspectives. Early learning fosters creativity, critical
+        thinking, and emotional growth, setting the stage for lifelong success.
+        Encouraging curiosity, providing supportive environments, and
+        integrating play-based learning help children thrive academically and
+        socially, empowering them to achieve their full potential.
+      </marquee> -->
+      <section class="curriculum">
+        <h2>Standard Curriculum</h2>
+        <div class="card-container">
+          <div class="card">
+            <img src="assets/kinder.png" alt="" class="card-img" />
+            <h4 class="card-h4">Kinder (3-6) Years</h4>
+            <p class="card-p">
+              Kinder, or pre-school, for children aged 3–6 years is a stage of
+              education that focuses on play-based learning.
+            </p>
+            <h5 class="card-h5">Read More</h5>
+          </div>
+          <div class="card">
+            <img src="assets/elementary.png" alt="" class="card-img" />
+            <h4 class="card-h4">Elementary School</h4>
+            <p class="card-p">
+              An elementary school is a school where children are taught for the
+              first six or sometimes eight years of their education.
+            </p>
+            <h5 class="card-h5">Read More</h5>
+          </div>
+          <div class="card">
+            <img src="assets/middle.png" alt="" class="card-img" />
+            <h4 class="card-h4">Middle (10-16) Years</h4>
+            <p class="card-p">
+              Middle school for students aged 11–16 years old is called the
+              Middle Years Programme (MYP).
+            </p>
+            <h5 class="card-h5">Read More</h5>
+          </div>
+          <div class="arrow-btn">
+            <button><i class="fa-solid fa-less-than"></i></button>
+            <button><i class="fa-solid fa-greater-than"></i></button>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
