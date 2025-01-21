@@ -39,14 +39,19 @@
   color: white;
   font-size: 20px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 /* Header */
 
-header,
-main {
-  max-width: 1440px;
+header {
+  max-width: 1200px;
   margin: 0 auto;
+}
+
+main {
+  background-image: url(../assets/bg1.jpg);
+  /* margin: 0 auto; */
 }
 
 /* navbar */
@@ -128,8 +133,90 @@ marquee {
 
 /* Curriculum */
 .curriculum {
-  height: 80vh;
-  background-image: url(../assets/bg1.jpg);
+  max-width: 1200px;
+  margin: 0 auto;
+  /* height: 100vh; */
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.curriculum h2 {
+  font-size: 46px;
+  line-height: 56px;
+  font-weight: bold;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 80px;
+}
+
+.card {
+  padding: 50px 40px;
+  text-align: center;
+  border-radius: 18px;
+  justify-content: space-between;
+  box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
+}
+
+.card-img {
+  margin-bottom: 2rem;
+}
+
+.card-h4 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 30px;
+  margin-bottom: 2rem;
+}
+
+.card-p {
+  font-size: 1rem;
+  line-height: 28px;
+  color: #808080;
+  margin-bottom: 2rem;
+}
+
+.card1 .card-h5 {
+  color: #64c8ff;
+}
+
+.card1 {
+  border: 1px solid #def5ff;
+  background: linear-gradient(to bottom, #def5ff 0%, #ffffff 40%);
+}
+
+.card2 {
+  border: 1px solid #fff4dc;
+  background: linear-gradient(to bottom, #fff4dc 0%, #ffffff 40%);
+}
+
+.card3 {
+  border: 1px solid #f2e8ff;
+  background: linear-gradient(to bottom, #f2e8ff 0%, #ffffff 40%);
+}
+
+.arrow-btn {
+  gap: 10px;
+  margin-bottom: 60px;
+}
+
+.arrow-btn button {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+  background-color: orange;
+  cursor: pointer;
+}
+
+.arrow-btn button i {
+  color: white;
+  font-size: 20px;
 }
 
 .hide {
