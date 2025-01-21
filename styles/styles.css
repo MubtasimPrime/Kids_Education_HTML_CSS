@@ -39,6 +39,8 @@
   color: white;
   font-size: 20px;
   font-weight: 600;
+  transition: 0.3s color ease;
+  transition: 0.3s background-color ease;
   cursor: pointer;
 }
 
@@ -84,6 +86,12 @@ main {
 
 .nav-btn {
   background-color: orange;
+  border: 1px solid orange;
+}
+
+.nav-btn:hover {
+  background-color: white;
+  color: orange;
 }
 
 /* Banner Part */
@@ -115,6 +123,12 @@ main {
 
 .banner-btn {
   background-color: black;
+  border: 1px solid black;
+}
+
+.banner-btn:hover {
+  background-color: white;
+  color: black;
 }
 
 marquee {
@@ -208,7 +222,13 @@ marquee {
   border-radius: 50%;
   border: none;
   background-color: orange;
+  transition: 0.1s color ease;
+  transition: 0.1s background-color ease;
   cursor: pointer;
+}
+
+.arrow-btn button:hover {
+  background-color: black;
 }
 
 .arrow-btn button i {
@@ -318,8 +338,15 @@ marquee {
   font-size: 20px;
   line-height: 30px;
   font-weight: bold;
-  border: none;
+  border: 1px solid black;
   border-radius: 12px;
+  transition: 0.3s color ease;
+  transition: 0.3s background-color ease;
+}
+
+.story-view-btn:hover {
+  background-color: white;
+  color: black;
 }
 
 footer {
