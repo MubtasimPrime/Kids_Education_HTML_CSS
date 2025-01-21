@@ -123,8 +123,6 @@ marquee {
   align-items: center;
   font-size: 20px;
   font-weight: 500;
-  border: 1px solid orange;
-  border-radius: 10px;
 }
 
 .hamburger {
@@ -322,6 +320,64 @@ marquee {
   font-weight: bold;
   border: none;
   border-radius: 12px;
+}
+
+footer {
+  background-color: #01acfd;
+  color: white;
+}
+.footer {
+  max-width: 1080px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 120px 140px 80px 170px;
+}
+
+.footer-logo {
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 35px;
+}
+
+.footer-logo h2 {
+  font-size: 42px;
+  line-height: 38px;
+  font-weight: bold;
+}
+
+.footer-column-1 {
+  max-width: 400px;
+}
+
+.footer-column-1 p {
+  font-size: 20px;
+  font-weight: 400;
+  /* text-align: justify; */
+}
+
+.footer-column-2 h2,
+.footer-column-3 h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+
+.footer-column-2 ul {
+  gap: 20px;
+}
+
+.footer-column-2 ul li {
+  list-style: none;
+}
+
+.footer-column-2 ul li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.connect {
+  gap: 10px;
 }
 
 .hide {
