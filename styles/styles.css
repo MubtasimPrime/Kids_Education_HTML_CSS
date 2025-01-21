@@ -221,10 +221,6 @@ marquee {
 /* Story */
 
 .story {
-  /* max-width: 1200px; */
-  /* height: 90vh; */
-  /* margin: 0 auto; */
-  /* align-items: center; */
   text-align: center;
   background: linear-gradient(
     to top,
@@ -256,13 +252,64 @@ marquee {
 
 .story-img img {
   width: 100%;
-  object-fit: cover;
   border-radius: 16px 16px 0 0;
 }
 
 .story-cards {
   background-color: white;
   border-radius: 16px;
+}
+
+.story-text-content {
+  position: relative;
+  padding: 10px 40px;
+  text-align: left;
+}
+
+.story-btn {
+  position: absolute;
+  top: -30px;
+  border-radius: 48px;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.story-h41 {
+  font-size: 24px;
+  line-height: 38px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+
+.story-h4 {
+  font-size: 15px;
+  line-height: 28px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.story-p {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #666666;
+  margin-bottom: 20px;
+}
+
+.sb1 {
+  background-color: #3cd8e8;
+}
+
+.sb2 {
+  background-color: #95b226;
+}
+
+.sb3 {
+  background-color: #5d58f0;
 }
 
 .story-view-btn {
