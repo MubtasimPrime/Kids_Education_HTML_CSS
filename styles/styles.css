@@ -465,4 +465,39 @@ footer {
     border-radius: 8px;
     font-size: 16px;
   }
+
+  .curriculum h2 {
+    text-align: center;
+    font-size: 26px;
+    line-height: 1;
+    margin-bottom: 30px;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10px 20px 0 20px;
+    gap: 15px;
+    margin-bottom: 40px;
+  }
+
+  .card {
+    padding: 35px 50px;
+  }
+
+  .card-h4 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 22px;
+  }
+
+  .card-p {
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 22px;
+  }
+
+  .arrow-btn {
+    display: none;
+  }
 }
